@@ -20,6 +20,6 @@ closingButton.addEventListener('click', () => {
 });
 
 window.onload = checkWidth;
-// window.onresize = checkWidth;
+window.onresize = checkWidth;
 
 

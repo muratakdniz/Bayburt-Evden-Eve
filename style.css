@@ -62,7 +62,7 @@
     height: 100%;
     width: 500px;
     transform: translate(-100%); 
-    transition: 0.8s; 
+    transition: 0.3s; 
 }
 
 
@@ -103,6 +103,7 @@
     .sidebar{
         width: 100%;
         height: 100%;
+        display: block;
     }
 
 }
