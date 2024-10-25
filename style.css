@@ -99,6 +99,7 @@
 
 
 
+
 @media (min-width: 320px)  and (max-width: 1024px){
     .sidebar{
         width: 100%;
@@ -117,7 +118,6 @@
 }
 .fa-xmark {
     cursor: pointer;
-    
 }
 
 @media (min-width: 320px)  and (max-width: 1024px) {
