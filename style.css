@@ -90,9 +90,9 @@
 
 .iconbars .fa-bars {
     font-size: 40px; 
+    position: absolute;
     left: 30px;
     top: 135px;
-    position: fixed;
     color: white;    
 
 }
