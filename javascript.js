@@ -1,3 +1,5 @@
+let isSidebarOpen = false; // Yeni değişken
+
 function checkWidth() {
     const iconbars = document.querySelector('.iconbars');
     if (window.innerWidth >= 320 && window.innerWidth <= 1025) { 
@@ -12,14 +14,16 @@ const sidebar = document.querySelector('.sidebar');
 const closingButton = document.querySelector('.fa-xmark');
 
 bar.addEventListener('click', () => {
-    sidebar.classList.toggle('showSidebar'); 
+    if (!isSidebarOpen) { // Yan menü açık değilse
+        sidebar.classList.add('showSidebar'); 
+        isSidebarOpen = true; // Durumu güncelle
+    }
 });
 
 closingButton.addEventListener('click', () => {
     sidebar.classList.remove('showSidebar'); 
+    isSidebarOpen = false; // Durumu güncelle
 });
 
 window.onload = checkWidth;
 window.onresize = checkWidth;
-
-

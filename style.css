@@ -63,6 +63,7 @@
     width: 500px;
     transform: translate(-100%); 
     transition: 0.8s; 
+    
 }
 
 
@@ -88,7 +89,7 @@
 
 }
 
-.iconbars i {
+.iconbars .fa-bars {
     font-size: 40px; 
     position: absolute;
     left: 30px;
